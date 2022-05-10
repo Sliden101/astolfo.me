@@ -16,10 +16,8 @@ body {
     transform: scale(1.1);
 }
 
-.container {
-    display: inline-block;
-}
 .typing-effect{
+    text-align: center;
     font-family: 'Roboto Mono', monospace;
     overflow: hidden;
     white-space: nowrap;
