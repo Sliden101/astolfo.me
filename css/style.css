@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(0, 0, 0);
+  } 
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    transition: 1s;
+    border: 5px solid rgb(240, 56, 185);
+    padding: 1px;
+    width: 200px;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+.container {
+    display: inline-block;
+}
+.typing-effect{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+      typing 1s forwards;
+    font-size: 1.6rem;
+    width: 0;
+    color:rgb(240, 56, 185);
+  }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
