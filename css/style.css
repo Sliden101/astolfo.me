@@ -1,6 +1,14 @@
 body {
     background-color: rgb(0, 0, 0);
-  } 
+} 
+
+#player{
+    position: relative;
+    max-width: 700px;
+    height: 500px;
+    border: solid 1px gray;
+}
+
 .gallery{
     margin: 10px 50px;
 }
@@ -15,7 +23,6 @@ body {
     transform: scale(1.1);
 }
 
-
 .container {
     display: inline-block;
 }
@@ -23,7 +30,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     animation: 
-      typing 1s forwards;
+      typing 2s forwards;
     font-size: 1.6rem;
     width: 0;
     color:rgb(240, 56, 185);
