@@ -34,7 +34,7 @@ body {
     to { width: 100% }
 }
 
-#info{
+#info {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.6rem;
     color: rgb(240, 56, 185);
