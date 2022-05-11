@@ -43,10 +43,6 @@ body {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
 }
 #info {
     font-family: 'Roboto Mono', monospace;
