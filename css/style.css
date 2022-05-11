@@ -31,7 +31,22 @@ body {
     from { width: 0 }
     to { width: 100% }
 }
-
+.audio  {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 #info {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.6rem;
